@@ -12,7 +12,7 @@
 <br></br>
 ## Further information about my program
 
-##My approach
+### My approach
 Below are some of the approaches, design principles, and explanations, in no particular order, on how I decided to tackle this problem.
 - Utilized the Multiton design pattern for my Customer object. This would allow me to maintain one customer per id along with a list of all customers.
 - Divided transactions & balances by month to allow for more division between code, and minimize errors.
@@ -22,7 +22,7 @@ Below are some of the approaches, design principles, and explanations, in no par
   <br></br>
 - Overall, I went into this task with three main goals for myself: simplicity, efficiency, and code legibility to another (you!).
 
-##Microsoft Excel issues
+### Microsoft Excel issues
 Two key issues I ran into when using Excel for the .csv files were:
 - special characters being added before the first line of data when saved as a **.csv**. 
   - To fix I suggest avoiding Excel altogether and using a basic editor such as `TextEdit`. If you already saved the **.csv** with Excel, simply open it in a program such as `TextEdit` and re-save the file.
